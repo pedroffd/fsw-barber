@@ -8,8 +8,8 @@ const Header = () => {
         <Card>
             <CardContent className="p-5 justify-between flex flex-row items-center">
             <Image src="/logo.png" alt="FSW Barber" height={22} width={120}/>
-            <Button variant="outline" size="icon">
-                <MenuIcon />
+            <Button variant="outline" size="icon" className="h-6 w-6">
+                <MenuIcon size={16}/>
             </Button>
             </CardContent>
         </Card>
